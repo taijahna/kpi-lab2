@@ -1,0 +1,32 @@
+{
+  "name": "laba-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeria2707/laba2-nodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valeria2707/laba2-nodeJs/issues"
+  },
+  "homepage": "https://github.com/Valeria2707/laba2-nodeJs#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "husky": "^8.0.3",
+    "prettier": "3.1.1"
+  }
+}
